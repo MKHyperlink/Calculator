@@ -10,8 +10,8 @@ import UIKit
 
 class CalculatorViewController: UIViewController {
 
-    static var storyboardName: String { return "UISamples" }
-    static var storyboardIdentifier: String? { return "uisample_calculator" }
+    static var storyboardName: String { return "Main" }
+    static var storyboardIdentifier: String? { return "CalculatorViewController" }
     
     @IBOutlet weak var clearButton: UIButton!
     @IBOutlet weak var backButton: UIButton!
